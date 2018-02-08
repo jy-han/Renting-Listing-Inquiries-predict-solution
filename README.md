@@ -5,7 +5,7 @@ The target variable : interest_level.
 Solution: Logistic regression with L1 regularization. 
 
 The lR solution works as:
-1. Read & Discovery data
+1. Load & prepare data
  - Data size: 49352(train), 74659(test)
  - It has 15 features, with no null value
 2. Feature Engineering
@@ -24,7 +24,7 @@ The lR solution works as:
 4. Decide model and predict
 
 The SVM solution works as:
-1. Read & Discovery data
+1. Load & prepare data
  - as feature engineering completed in LR solution, use the file directly
  - Data size: 49352(train), 74659(test)
  - It has 224 features, with no null value
